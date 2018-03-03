@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Grootfontein" size="200.000000 115.751297" />
+    <ImageTarget name="Etosha" size="200.000000 109.233795" />
+    <ImageTarget name="Ongwediva" size="200.000000 142.209625" />
+    <ImageTarget name="FishRiver" size="200.000000 155.734604" />
+    <ImageTarget name="Swakop" size="200.000000 205.065231" />
+    <ImageTarget name="Windhoek" size="200.000000 147.567566" />
+    <ImageTarget name="Caprivi" size="200.000000 89.724312" />
+  </Tracking>
+</QCARConfig>
