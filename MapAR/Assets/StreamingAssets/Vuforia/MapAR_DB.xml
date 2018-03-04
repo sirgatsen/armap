@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="NewMainMapCrop2" size="200.000000 355.747131" />
+    <ImageTarget name="NewMainMapCrop" size="200.000000 355.700317" />
     <ImageTarget name="Grootfontein" size="200.000000 115.751297" />
     <ImageTarget name="Etosha" size="200.000000 109.233795" />
     <ImageTarget name="Ongwediva" size="200.000000 142.209625" />
