@@ -122,8 +122,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8398399}
   m_Layer: 0
-  m_Name: RoadSigns
-  m_TagString: Untagged
+  m_Name: Signs
+  m_TagString: sign
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -236,7 +236,6 @@ GameObject:
   - component: {fileID: 33188711}
   - component: {fileID: 33188714}
   - component: {fileID: 33188713}
-  - component: {fileID: 33188712}
   m_Layer: 0
   m_Name: Katima
   m_TagString: Untagged
@@ -251,25 +250,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 33188710}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: -0.000011590382, z: -0.000011168914}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 778516347}
+  m_Father: {fileID: 756310164}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &33188712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 33188710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 0}
 --- !u!102 &33188713
 TextMesh:
   serializedVersion: 3
@@ -614,7 +600,6 @@ GameObject:
   - component: {fileID: 76826668}
   - component: {fileID: 76826671}
   - component: {fileID: 76826670}
-  - component: {fileID: 76826669}
   m_Layer: 0
   m_Name: Keetmanshoop
   m_TagString: Untagged
@@ -633,21 +618,8 @@ Transform:
   m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 778516347}
-  m_RootOrder: 15
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &76826669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 76826667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 0}
 --- !u!102 &76826670
 TextMesh:
   serializedVersion: 3
@@ -883,7 +855,7 @@ GameObject:
   - component: {fileID: 145914201}
   m_Layer: 0
   m_Name: Markers
-  m_TagString: Untagged
+  m_TagString: marker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -915,7 +887,7 @@ GameObject:
   - component: {fileID: 156839028}
   m_Layer: 0
   m_Name: Markers
-  m_TagString: Untagged
+  m_TagString: marker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1112,8 +1084,8 @@ GameObject:
   m_Component:
   - component: {fileID: 244433083}
   m_Layer: 0
-  m_Name: RoadSigns
-  m_TagString: Untagged
+  m_Name: Signs
+  m_TagString: sign
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1141,7 +1113,6 @@ GameObject:
   - component: {fileID: 244439534}
   - component: {fileID: 244439537}
   - component: {fileID: 244439536}
-  - component: {fileID: 244439535}
   m_Layer: 0
   m_Name: Karasburg
   m_TagString: Untagged
@@ -1160,21 +1131,8 @@ Transform:
   m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 778516347}
-  m_RootOrder: 16
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &244439535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 244439533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 0}
 --- !u!102 &244439536
 TextMesh:
   serializedVersion: 3
@@ -1481,7 +1439,6 @@ GameObject:
   - component: {fileID: 277432800}
   - component: {fileID: 277432803}
   - component: {fileID: 277432802}
-  - component: {fileID: 277432801}
   m_Layer: 0
   m_Name: Windhoek
   m_TagString: Untagged
@@ -1496,25 +1453,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 277432799}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.95, y: -35.97, z: -35.25}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_LocalPosition: {x: -18.949999, y: -35.970013, z: -35.250008}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 778516347}
-  m_RootOrder: 10
+  m_Father: {fileID: 382702494}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &277432801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 277432799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 0}
 --- !u!102 &277432802
 TextMesh:
   serializedVersion: 3
@@ -1595,6 +1539,122 @@ Material:
     m_Floats: []
     m_Colors:
     - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+--- !u!1 &332057683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 332057684}
+  - component: {fileID: 332057688}
+  - component: {fileID: 332057687}
+  - component: {fileID: 332057686}
+  - component: {fileID: 332057685}
+  m_Layer: 0
+  m_Name: kasane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &332057684
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 332057683}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.19699991, y: 0.001, z: 0.08799998}
+  m_LocalScale: {x: 0.2, y: 1, z: 0.2}
+  m_Children: []
+  m_Father: {fileID: 402864176}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &332057685
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 332057683}
+  m_Mesh: {fileID: 2048707096}
+--- !u!23 &332057686
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 332057683}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a88c225b69241164ab829bccf61d8845, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &332057687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 332057683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1770992566, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &332057688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 332057683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1539294719, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mName: 
+  mSensitivity: 2
+  mHasUpdatedPose: 1
+  mPrevTransform:
+    e00: 30
+    e01: 0
+    e02: 0
+    e03: 273.65
+    e10: 0
+    e11: 150
+    e12: 0
+    e13: 0.15
+    e20: 0
+    e21: 0
+    e22: 30
+    e23: 232.2
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  mPrevParent: {fileID: 402864175}
 --- !u!1 &333148750
 GameObject:
   m_ObjectHideFlags: 0
@@ -1691,7 +1751,6 @@ GameObject:
   - component: {fileID: 354643133}
   - component: {fileID: 354643136}
   - component: {fileID: 354643135}
-  - component: {fileID: 354643134}
   m_Layer: 0
   m_Name: Rehoboth
   m_TagString: Untagged
@@ -1706,25 +1765,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 354643132}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.95, y: -42.25, z: -41.97}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_LocalPosition: {x: -18.949999, y: -42.250008, z: -41.97001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 778516347}
-  m_RootOrder: 11
+  m_Father: {fileID: 382702494}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &354643134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 354643132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 0}
 --- !u!102 &354643135
 TextMesh:
   serializedVersion: 3
@@ -1789,8 +1835,8 @@ GameObject:
   m_Component:
   - component: {fileID: 369019318}
   m_Layer: 0
-  m_Name: TownNames
-  m_TagString: Untagged
+  m_Name: Towns
+  m_TagString: town
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1804,7 +1850,9 @@ Transform:
   m_LocalRotation: {x: 0.38262516, y: -0.016123962, z: 0.0066787633, w: 0.9237389}
   m_LocalPosition: {x: 1.3531309, y: 0.19285715, z: 0.88562036}
   m_LocalScale: {x: 0.053571433, y: 0.05357144, z: 0.05357144}
-  m_Children: []
+  m_Children:
+  - {fileID: 729847390}
+  - {fileID: 1254894365}
   m_Father: {fileID: 528063673}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1817,8 +1865,8 @@ GameObject:
   m_Component:
   - component: {fileID: 382702494}
   m_Layer: 0
-  m_Name: TownNames
-  m_TagString: Untagged
+  m_Name: Towns
+  m_TagString: town
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1832,7 +1880,11 @@ Transform:
   m_LocalRotation: {x: 0.38268343, y: -0, z: -0, w: 0.92387956}
   m_LocalPosition: {x: 0.8043333, y: 0.17999998, z: 2.701333}
   m_LocalScale: {x: 0.049999997, y: 0.050000004, z: 0.050000004}
-  m_Children: []
+  m_Children:
+  - {fileID: 1366308185}
+  - {fileID: 277432800}
+  - {fileID: 354643133}
+  - {fileID: 1856856160}
   m_Father: {fileID: 1449545820}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2000,6 +2052,8 @@ GameObject:
   - component: {fileID: 402864179}
   - component: {fileID: 402864178}
   - component: {fileID: 402864177}
+  - component: {fileID: 402864182}
+  - component: {fileID: 402864183}
   m_Layer: 0
   m_Name: Caprivi
   m_TagString: Untagged
@@ -2021,6 +2075,7 @@ Transform:
   - {fileID: 1978646012}
   - {fileID: 1098375218}
   - {fileID: 756310164}
+  - {fileID: 332057684}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2082,7 +2137,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 402864175}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
@@ -2107,6 +2162,29 @@ MonoBehaviour:
   mImageTargetType: 0
   mWidth: 150
   mHeight: 67.293236
+--- !u!114 &402864182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 402864175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 029dc9b446bc0594aba47ecf78867de4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btn: {fileID: 332057683}
+--- !u!114 &402864183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 402864175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67de0829beae1841a72a9d44f7c781c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &441519377
 GameObject:
   m_ObjectHideFlags: 0
@@ -2117,7 +2195,7 @@ GameObject:
   - component: {fileID: 441519378}
   m_Layer: 0
   m_Name: Markers
-  m_TagString: Untagged
+  m_TagString: marker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2305,6 +2383,7 @@ GameObject:
   - component: {fileID: 528063676}
   - component: {fileID: 528063675}
   - component: {fileID: 528063674}
+  - component: {fileID: 528063679}
   m_Layer: 0
   m_Name: Ongwediva
   m_TagString: Untagged
@@ -2387,7 +2466,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 528063672}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
@@ -2412,6 +2491,17 @@ MonoBehaviour:
   mImageTargetType: 0
   mWidth: 140
   mHeight: 99.54674
+--- !u!114 &528063679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 528063672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67de0829beae1841a72a9d44f7c781c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &537888647
 GameObject:
   m_ObjectHideFlags: 0
@@ -2422,7 +2512,7 @@ GameObject:
   - component: {fileID: 537888648}
   m_Layer: 0
   m_Name: Lodges
-  m_TagString: Untagged
+  m_TagString: lodge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2539,6 +2629,7 @@ GameObject:
   - component: {fileID: 610988431}
   - component: {fileID: 610988430}
   - component: {fileID: 610988429}
+  - component: {fileID: 610988434}
   m_Layer: 0
   m_Name: Etosha
   m_TagString: Untagged
@@ -2621,7 +2712,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 610988427}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
@@ -2646,6 +2737,17 @@ MonoBehaviour:
   mImageTargetType: 0
   mWidth: 200
   mHeight: 109.233795
+--- !u!114 &610988434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 610988427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67de0829beae1841a72a9d44f7c781c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &623741894
 GameObject:
   m_ObjectHideFlags: 0
@@ -2656,7 +2758,7 @@ GameObject:
   - component: {fileID: 623741895}
   m_Layer: 0
   m_Name: Lodges
-  m_TagString: Untagged
+  m_TagString: lodge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2713,8 +2815,8 @@ GameObject:
   m_Component:
   - component: {fileID: 648717932}
   m_Layer: 0
-  m_Name: RoadSigns
-  m_TagString: Untagged
+  m_Name: Signs
+  m_TagString: sign
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2746,7 +2848,7 @@ GameObject:
   - component: {fileID: 666238100}
   m_Layer: 0
   m_Name: Lodges
-  m_TagString: Untagged
+  m_TagString: lodge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2777,7 +2879,7 @@ GameObject:
   - component: {fileID: 706889356}
   m_Layer: 0
   m_Name: Markers
-  m_TagString: Untagged
+  m_TagString: marker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2809,7 +2911,6 @@ GameObject:
   - component: {fileID: 717566442}
   - component: {fileID: 717566445}
   - component: {fileID: 717566444}
-  - component: {fileID: 717566443}
   m_Layer: 0
   m_Name: Kasane
   m_TagString: Untagged
@@ -2824,25 +2925,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 717566441}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.079999, y: -1.3010751, z: -1.3010755}
+  m_LocalPosition: {x: 8.079999, y: -1.3010865, z: -1.3010865}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 778516347}
+  m_Father: {fileID: 756310164}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &717566443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 717566441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 0}
 --- !u!102 &717566444
 TextMesh:
   serializedVersion: 3
@@ -2908,7 +2996,6 @@ GameObject:
   - component: {fileID: 729847390}
   - component: {fileID: 729847393}
   - component: {fileID: 729847392}
-  - component: {fileID: 729847391}
   m_Layer: 0
   m_Name: Oshakati
   m_TagString: Untagged
@@ -2923,25 +3010,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 729847389}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30.37, y: -9.53, z: -9.48}
+  m_LocalPosition: {x: -30.369995, y: -9.530011, z: -9.480008}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 778516347}
-  m_RootOrder: 3
+  m_Father: {fileID: 369019318}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &729847391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 729847389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 0}
 --- !u!102 &729847392
 TextMesh:
   serializedVersion: 3
@@ -3031,8 +3105,8 @@ GameObject:
   m_Component:
   - component: {fileID: 747000286}
   m_Layer: 0
-  m_Name: RoadSigns
-  m_TagString: Untagged
+  m_Name: Signs
+  m_TagString: sign
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3079,8 +3153,8 @@ GameObject:
   m_Component:
   - component: {fileID: 756310164}
   m_Layer: 0
-  m_Name: TownNames
-  m_TagString: Untagged
+  m_Name: Towns
+  m_TagString: town
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3094,7 +3168,10 @@ Transform:
   m_LocalRotation: {x: 0.38268343, y: -0, z: -0, w: 0.92387956}
   m_LocalPosition: {x: -0.32299995, y: 0.17999999, z: 0.2619999}
   m_LocalScale: {x: 0.049999993, y: 0.050000004, z: 0.050000004}
-  m_Children: []
+  m_Children:
+  - {fileID: 33188711}
+  - {fileID: 717566442}
+  - {fileID: 2067450709}
   m_Father: {fileID: 402864176}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3107,8 +3184,8 @@ GameObject:
   m_Component:
   - component: {fileID: 778516347}
   m_Layer: 0
-  m_Name: TownNames
-  m_TagString: Untagged
+  m_Name: Towns
+  m_TagString: town
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3123,21 +3200,6 @@ Transform:
   m_LocalPosition: {x: 0.59370375, y: 0.19999999, z: 5.148147}
   m_LocalScale: {x: 0.05555555, y: 0.05555556, z: 0.05555556}
   m_Children:
-  - {fileID: 33188711}
-  - {fileID: 717566442}
-  - {fileID: 2067450709}
-  - {fileID: 729847390}
-  - {fileID: 1254894365}
-  - {fileID: 1664500498}
-  - {fileID: 859601628}
-  - {fileID: 1763770770}
-  - {fileID: 1743378269}
-  - {fileID: 1366308185}
-  - {fileID: 277432800}
-  - {fileID: 354643133}
-  - {fileID: 860925934}
-  - {fileID: 864966337}
-  - {fileID: 1856856160}
   - {fileID: 76826668}
   - {fileID: 244439534}
   - {fileID: 1209187728}
@@ -3542,7 +3604,7 @@ GameObject:
   - component: {fileID: 838920250}
   m_Layer: 0
   m_Name: Markers
-  m_TagString: Untagged
+  m_TagString: marker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3745,7 +3807,6 @@ GameObject:
   - component: {fileID: 859601628}
   - component: {fileID: 859601631}
   - component: {fileID: 859601630}
-  - component: {fileID: 859601629}
   m_Layer: 0
   m_Name: Otavi
   m_TagString: Untagged
@@ -3760,25 +3821,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 859601627}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.52, y: -20.16, z: -20.31}
+  m_LocalPosition: {x: -16.519997, y: -20.160013, z: -20.31001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 778516347}
-  m_RootOrder: 6
+  m_Father: {fileID: 1104415966}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &859601629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 859601627}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 0}
 --- !u!102 &859601630
 TextMesh:
   serializedVersion: 3
@@ -3844,7 +3892,6 @@ GameObject:
   - component: {fileID: 860925934}
   - component: {fileID: 860925937}
   - component: {fileID: 860925936}
-  - component: {fileID: 860925935}
   m_Layer: 0
   m_Name: Swakopmund
   m_TagString: Untagged
@@ -3859,25 +3906,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 860925933}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -40.32, y: -36.9, z: -36.59}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_LocalPosition: {x: -40.32, y: -36.90001, z: -36.590015}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 778516347}
-  m_RootOrder: 12
+  m_Father: {fileID: 1518120436}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &860925935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 860925933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 0}
 --- !u!102 &860925936
 TextMesh:
   serializedVersion: 3
@@ -3943,7 +3977,6 @@ GameObject:
   - component: {fileID: 864966337}
   - component: {fileID: 864966340}
   - component: {fileID: 864966339}
-  - component: {fileID: 864966338}
   m_Layer: 0
   m_Name: Walvisbay
   m_TagString: Untagged
@@ -3958,25 +3991,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 864966336}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -41.08, y: -39.87, z: -39.56}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_LocalPosition: {x: -41.079998, y: -39.87001, z: -39.560013}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 778516347}
-  m_RootOrder: 13
+  m_Father: {fileID: 1518120436}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &864966338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 864966336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 0}
 --- !u!102 &864966339
 TextMesh:
   serializedVersion: 3
@@ -4557,8 +4577,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1028806527}
   m_Layer: 0
-  m_Name: RoadSigns
-  m_TagString: Untagged
+  m_Name: Signs
+  m_TagString: sign
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4759,6 +4779,7 @@ GameObject:
   - component: {fileID: 1071513542}
   - component: {fileID: 1071513541}
   - component: {fileID: 1071513540}
+  - component: {fileID: 1071513545}
   m_Layer: 0
   m_Name: Swakop
   m_TagString: Untagged
@@ -4841,7 +4862,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1071513538}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
@@ -4866,6 +4887,17 @@ MonoBehaviour:
   mImageTargetType: 0
   mWidth: 146.29492
   mHeight: 150
+--- !u!114 &1071513545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1071513538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67de0829beae1841a72a9d44f7c781c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1073160390
 GameObject:
   m_ObjectHideFlags: 0
@@ -4876,7 +4908,7 @@ GameObject:
   - component: {fileID: 1073160391}
   m_Layer: 0
   m_Name: Markers
-  m_TagString: Untagged
+  m_TagString: marker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5110,91 +5142,6 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
---- !u!1 &1084225497
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1084225498}
-  - component: {fileID: 1084225500}
-  - component: {fileID: 1084225499}
-  m_Layer: 0
-  m_Name: New Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1084225498
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1084225497}
-  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: -0.37, y: 0.187, z: -0.036}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
-  m_Children: []
-  m_Father: {fileID: 1782948803}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!102 &1084225499
-TextMesh:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1084225497}
-  m_Text: Fish River
-  m_OffsetZ: 0
-  m_CharacterSize: 1
-  m_LineSpacing: 1
-  m_Anchor: 0
-  m_Alignment: 0
-  m_TabSize: 4
-  m_FontSize: 0
-  m_FontStyle: 0
-  m_RichText: 1
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-  m_Color:
-    serializedVersion: 2
-    rgba: 4278190080
---- !u!23 &1084225500
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1084225497}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!1 &1098375217
 GameObject:
   m_ObjectHideFlags: 0
@@ -5204,8 +5151,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1098375218}
   m_Layer: 0
-  m_Name: RoadSigns
-  m_TagString: Untagged
+  m_Name: Signs
+  m_TagString: sign
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5232,8 +5179,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1104415966}
   m_Layer: 0
-  m_Name: TownNames
-  m_TagString: Untagged
+  m_Name: Towns
+  m_TagString: town
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5247,7 +5194,11 @@ Transform:
   m_LocalRotation: {x: 0.38268343, y: -0, z: -0, w: 0.92387956}
   m_LocalPosition: {x: 0.5968572, y: 0.1542857, z: 1.3245714}
   m_LocalScale: {x: 0.042857144, y: 0.042857148, z: 0.042857148}
-  m_Children: []
+  m_Children:
+  - {fileID: 1664500498}
+  - {fileID: 859601628}
+  - {fileID: 1763770770}
+  - {fileID: 1743378269}
   m_Father: {fileID: 1137303177}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5348,6 +5299,7 @@ GameObject:
   - component: {fileID: 1137303180}
   - component: {fileID: 1137303179}
   - component: {fileID: 1137303178}
+  - component: {fileID: 1137303183}
   m_Layer: 0
   m_Name: Grootfontein
   m_TagString: Untagged
@@ -5430,7 +5382,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1137303176}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
@@ -5455,6 +5407,17 @@ MonoBehaviour:
   mImageTargetType: 0
   mWidth: 175
   mHeight: 101.28239
+--- !u!114 &1137303183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1137303176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67de0829beae1841a72a9d44f7c781c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1145807316
 GameObject:
   m_ObjectHideFlags: 0
@@ -5767,7 +5730,7 @@ GameObject:
   - component: {fileID: 1174281760}
   m_Layer: 0
   m_Name: Lodges
-  m_TagString: Untagged
+  m_TagString: lodge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5881,7 +5844,6 @@ GameObject:
   - component: {fileID: 1209187728}
   - component: {fileID: 1209187731}
   - component: {fileID: 1209187730}
-  - component: {fileID: 1209187729}
   m_Layer: 0
   m_Name: Ludritz
   m_TagString: Untagged
@@ -5900,21 +5862,8 @@ Transform:
   m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 778516347}
-  m_RootOrder: 17
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &1209187729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1209187727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 0}
 --- !u!102 &1209187730
 TextMesh:
   serializedVersion: 3
@@ -6064,7 +6013,6 @@ GameObject:
   - component: {fileID: 1254894365}
   - component: {fileID: 1254894368}
   - component: {fileID: 1254894367}
-  - component: {fileID: 1254894366}
   m_Layer: 0
   m_Name: Ongwediva
   m_TagString: Untagged
@@ -6079,25 +6027,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1254894364}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28.21, y: -11.45, z: -11.42}
+  m_LocalPosition: {x: -28.209993, y: -11.450012, z: -11.420011}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 778516347}
-  m_RootOrder: 4
+  m_Father: {fileID: 369019318}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &1254894366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1254894364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 0}
 --- !u!102 &1254894367
 TextMesh:
   serializedVersion: 3
@@ -6249,7 +6184,7 @@ GameObject:
   - component: {fileID: 1338068811}
   m_Layer: 0
   m_Name: Lodges
-  m_TagString: Untagged
+  m_TagString: lodge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6280,7 +6215,7 @@ GameObject:
   - component: {fileID: 1345271022}
   m_Layer: 0
   m_Name: Lodges
-  m_TagString: Untagged
+  m_TagString: lodge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6393,8 +6328,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1360978290}
   m_Layer: 0
-  m_Name: RoadSigns
-  m_TagString: Untagged
+  m_Name: Signs
+  m_TagString: sign
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6422,7 +6357,6 @@ GameObject:
   - component: {fileID: 1366308185}
   - component: {fileID: 1366308188}
   - component: {fileID: 1366308187}
-  - component: {fileID: 1366308186}
   m_Layer: 0
   m_Name: Okahandja
   m_TagString: Untagged
@@ -6437,25 +6371,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1366308184}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.7, y: -33.09, z: -32.2}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_LocalPosition: {x: -20.699999, y: -33.090008, z: -32.200012}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 778516347}
-  m_RootOrder: 9
+  m_Father: {fileID: 382702494}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &1366308186
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1366308184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 0}
 --- !u!102 &1366308187
 TextMesh:
   serializedVersion: 3
@@ -6778,6 +6699,7 @@ GameObject:
   - component: {fileID: 1449545823}
   - component: {fileID: 1449545822}
   - component: {fileID: 1449545821}
+  - component: {fileID: 1449545826}
   m_Layer: 0
   m_Name: Windhoek
   m_TagString: Untagged
@@ -6860,7 +6782,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1449545819}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
@@ -6885,6 +6807,17 @@ MonoBehaviour:
   mImageTargetType: 0
   mWidth: 150
   mHeight: 110.675674
+--- !u!114 &1449545826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1449545819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67de0829beae1841a72a9d44f7c781c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1464624975
 GameObject:
   m_ObjectHideFlags: 0
@@ -7408,8 +7341,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1518120436}
   m_Layer: 0
-  m_Name: TownNames
-  m_TagString: Untagged
+  m_Name: Towns
+  m_TagString: town
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7423,7 +7356,9 @@ Transform:
   m_LocalRotation: {x: 0.38268343, y: -0, z: -0, w: 0.92387956}
   m_LocalPosition: {x: 1.783, y: 0.17999998, z: 2.7393332}
   m_LocalScale: {x: 0.049999997, y: 0.050000004, z: 0.050000004}
-  m_Children: []
+  m_Children:
+  - {fileID: 860925934}
+  - {fileID: 864966337}
   m_Father: {fileID: 1071513539}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7436,8 +7371,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1527761044}
   m_Layer: 0
-  m_Name: TownNames
-  m_TagString: Untagged
+  m_Name: Towns
+  m_TagString: town
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8002,7 +7937,6 @@ GameObject:
   - component: {fileID: 1664500498}
   - component: {fileID: 1664500501}
   - component: {fileID: 1664500500}
-  - component: {fileID: 1664500499}
   m_Layer: 0
   m_Name: Grootfontein
   m_TagString: Untagged
@@ -8017,25 +7951,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1664500497}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.21, y: -20.7, z: -21.54}
+  m_LocalPosition: {x: -13.209998, y: -20.700012, z: -21.540014}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 778516347}
-  m_RootOrder: 5
+  m_Father: {fileID: 1104415966}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &1664500499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1664500497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 0}
 --- !u!102 &1664500500
 TextMesh:
   serializedVersion: 3
@@ -8657,7 +8578,6 @@ GameObject:
   - component: {fileID: 1743378269}
   - component: {fileID: 1743378272}
   - component: {fileID: 1743378271}
-  - component: {fileID: 1743378270}
   m_Layer: 0
   m_Name: Otjiwarongo
   m_TagString: Untagged
@@ -8672,25 +8592,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1743378268}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23.94, y: -25.12, z: -24.11}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_LocalPosition: {x: -23.939997, y: -25.120008, z: -24.110012}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 778516347}
-  m_RootOrder: 8
+  m_Father: {fileID: 1104415966}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &1743378270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1743378268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 0}
 --- !u!102 &1743378271
 TextMesh:
   serializedVersion: 3
@@ -8756,7 +8663,6 @@ GameObject:
   - component: {fileID: 1763770770}
   - component: {fileID: 1763770773}
   - component: {fileID: 1763770772}
-  - component: {fileID: 1763770771}
   m_Layer: 0
   m_Name: Tsumeb
   m_TagString: Untagged
@@ -8771,25 +8677,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1763770769}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.23, y: -17.16, z: -18.13}
+  m_LocalPosition: {x: -15.229997, y: -17.160011, z: -18.130013}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 778516347}
-  m_RootOrder: 7
+  m_Father: {fileID: 1104415966}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &1763770771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1763770769}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 0}
 --- !u!102 &1763770772
 TextMesh:
   serializedVersion: 3
@@ -8880,7 +8773,6 @@ Transform:
   - {fileID: 838920250}
   - {fileID: 747000286}
   - {fileID: 778516347}
-  - {fileID: 1084225498}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8942,7 +8834,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1782948802}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
@@ -8975,11 +8867,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1782948802}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
+  m_Script: {fileID: 11500000, guid: b67de0829beae1841a72a9d44f7c781c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 1345271021}
 --- !u!1 &1808670766
 GameObject:
   m_ObjectHideFlags: 0
@@ -9162,7 +9052,6 @@ GameObject:
   - component: {fileID: 1856856160}
   - component: {fileID: 1856856163}
   - component: {fileID: 1856856162}
-  - component: {fileID: 1856856161}
   m_Layer: 0
   m_Name: Mariental
   m_TagString: Untagged
@@ -9177,25 +9066,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1856856159}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.18, y: -48.25, z: -46.88}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_LocalPosition: {x: -13.179998, y: -48.250008, z: -46.880013}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 778516347}
-  m_RootOrder: 14
+  m_Father: {fileID: 382702494}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &1856856161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1856856159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 0}
 --- !u!102 &1856856162
 TextMesh:
   serializedVersion: 3
@@ -9532,7 +9408,7 @@ GameObject:
   - component: {fileID: 1978646012}
   m_Layer: 0
   m_Name: Markers
-  m_TagString: Untagged
+  m_TagString: marker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9723,6 +9599,136 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2043778754}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!43 &2048707096
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: VBPlane
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 6
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 4
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200020001000300
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 11
+    m_VertexCount: 4
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 128
+    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f000000000000803f000000000000003f00000000000000bf000000000000803f00000000000000000000803f0000003f000000000000003f000000000000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0
 --- !u!1 &2066966463
 GameObject:
   m_ObjectHideFlags: 0
@@ -9819,7 +9825,6 @@ GameObject:
   - component: {fileID: 2067450709}
   - component: {fileID: 2067450712}
   - component: {fileID: 2067450711}
-  - component: {fileID: 2067450710}
   m_Layer: 0
   m_Name: Rundu
   m_TagString: Untagged
@@ -9834,25 +9839,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2067450708}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.77, y: -10.37, z: -10.49}
+  m_LocalPosition: {x: -0.7700015, y: -10.370014, z: -10.490013}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 778516347}
+  m_Father: {fileID: 756310164}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!114 &2067450710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2067450708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e690a7e916a6bc41805e776ee640fda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markers: {fileID: 0}
-  lodges: {fileID: 0}
 --- !u!102 &2067450711
 TextMesh:
   serializedVersion: 3
@@ -10002,7 +9994,7 @@ GameObject:
   - component: {fileID: 2099704832}
   m_Layer: 0
   m_Name: Lodges
-  m_TagString: Untagged
+  m_TagString: lodge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
